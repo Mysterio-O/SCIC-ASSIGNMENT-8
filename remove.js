@@ -30,8 +30,10 @@ function removeDuplicates(array) {
 
 
         // checks if the element is already in the array or not
-        if (!newArray.includes(a))
+        if (!newArray.includes(a)){
             newArray.push(a);
+        }
+            
     }
     // console.log(newArray);
     return newArray;

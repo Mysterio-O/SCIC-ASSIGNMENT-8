@@ -17,7 +17,6 @@ function capitalizeFirstWord(str) {
         // console.log(word);
         const capitalized = word[0].toUpperCase() + word.slice(1).toLowerCase();
         final.push(capitalized);
-
     }
 
     return final.join(' ');

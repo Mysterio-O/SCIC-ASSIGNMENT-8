@@ -34,4 +34,4 @@ function fnReverse(str) {
     }
 }
 
-console.log(fnReverse('Hello World'))
+console.log(fnReverse('Hello World'));

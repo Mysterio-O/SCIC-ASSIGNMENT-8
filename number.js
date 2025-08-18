@@ -35,7 +35,8 @@ function maxNumber(numbers) {
             maxNum = num
         }
     }
+    // console.log(maxNum);
     return maxNum;
 }
 
-console.log(maxNumber([3, 2, '9', 1, '8','am']));
+console.log(maxNumber([3, 2, 9, 1, 8]));

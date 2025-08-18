@@ -31,8 +31,8 @@ function findTheEvenNumbers(numbers) {
             finalArray.push(number);
         }
     }
-    console.log(finalArray);
-
+    // console.log(finalArray);
+    return finalArray;
 }
 
-findTheEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+console.log(findTheEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));

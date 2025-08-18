@@ -26,7 +26,7 @@ function sumOfAllNumbers(numbers) {
         //check if the element is a number or not
         if (typeof number !== 'number') return 'Array element must be numbers'
 
-        // adding every number one by one into total variable
+        // adding every number one by one with total variable
         total += number
     }
     // console.log(total);
