@@ -24,7 +24,7 @@ function fnReverse(str) {
         }
         // console.log(array);
 
-        const finalOutput = array.join(' ');
+        const finalOutput = array.join('');
         // console.log(finalOutput);
         return finalOutput
     }
